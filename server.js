@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 
 var indexRouter = require('./routes/index')(app);
+var aboutRouter = require('./routes/about')(app);
+var shopRouter = require('./routes/shop')(app);
+
 
 app.set('view engines', 'pug');
 app.set('views', __dirname + '/views');
