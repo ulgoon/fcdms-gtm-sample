@@ -1,0 +1,77 @@
+extends ./layout
+block content
+	.uk-margin.uk-margin-large-bottom.uk-text-contrast.uk-height-1-4-viewport.uk-flex.uk-flex-center.uk-flex-middle(style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url('/public/img/hero1.jpg'); background-position: 50% 30%; background-size: cover;")
+		.uk-width-medium-1-2.uk-margin-left
+			h1.uk-text-contrast.uk-heading-large
+				i.fa.fa-binoculars(aria-hidden='true')
+				|     About
+			p.uk-text-large
+				| What do you want to know?
+
+	.uk-container.uk-container-center.uk-magin-large-top.uk-margin-large-bottom
+		.uk-grid.uk-margin-large-bottom
+			.uk-width-1-5
+				img(src='//avatars0.githubusercontent.com/u/13392227?v=3&s=460')
+			.uk-width-3-5
+				h1 Woo Young, choi
+				h3 Solution Architect, Web Developer
+				p
+					a(href='//github.com/ulgoon/')
+						i.fa.fa-github(aria-hidden='true')
+						|	github 		
+					a(href='//ulgoon.github.io/')
+						i.fa.fa-rss(aria-hidden='true')
+						|	blog		
+					a(href='//facebook.com/ulgoon89')
+						i.fa.fa-facebook(aria-hidden='true')
+						|	facebook
+			.uk-width-1-5
+				
+		h2 Skills
+		ul.uk-thumbnav.uk-grid-width-small-1-2.uk-grid-width-medium-1-4.uk-margin-large-bottom
+			li
+				figure.uk-overlay.uk-overlay-hover
+					img(src='//1504253206.rsc.cdn77.org/wp-content/uploads/2015/11/Python-logo.png', height='300' alt='product')
+					.uk-overlay-panel.uk-overlay-fade.uk-overlay-background
+						h1 Python
+					a.uk-position-cover(href='//www.python.org/', target='_blank')
+			li
+				figure.uk-overlay.uk-overlay-hover
+					img(src='//www.spaceotechnologies.com/wp-content/uploads/2016/01/go_lang1.png', height='300' alt='product')
+					.uk-overlay-panel.uk-overlay-fade.uk-overlay-background
+						h1 Golang
+					a.uk-position-cover(href='//golang.org/', target='_blank')
+			li
+				figure.uk-overlay.uk-overlay-hover
+					img(src='//dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/07/1436439824nodejs-logo.png', height='300px' alt='product')
+					.uk-overlay-panel.uk-overlay-fade.uk-overlay-background
+						h1 Node.js
+					a.uk-position-cover(href='//nodejs.org/', target='_blank')
+			li
+				figure.uk-overlay.uk-overlay-hover
+					img(src='//krzakala.github.io/LowRAMP/images/julia.png', height='300' alt='product')
+					.uk-overlay-panel.uk-overlay-fade.uk-overlay-background
+						h1 Julia
+					a.uk-position-cover(href='//julialang.org/', target='_blank')
+
+		h2 Work Experience
+		.uk-grid.uk-margin-large-bottom
+			.uk-width-1-2
+				h3 Solution Architect & Back-End Developer
+				h4 Unknown Team (Aug 2016 ~ Nov 2016)
+				p stack: Node.js with express, Angular2, Golang, Postgresql, Mongodb, slack, trello, travisCI
+			.uk-width-1-2
+				h3 Course Manager
+				h4 Fastcampus (Mar 2016 ~ Aug 2016)
+				p Web Programming SCHOOL
+		h2 Instruct Experience
+		.uk-grid.uk-margin-large-bottom
+			.uk-width-1-3
+				h3 Google Tag Manager
+				h4 Fastcampus Digital Marketing SCHOOL
+			.uk-width-1-3
+				h3 Node.js
+				h4 Fastcampus Front End Design SCHOOL
+			.uk-width-1-3
+				h3 Python
+				h4 KT Hope Sharing Foundation

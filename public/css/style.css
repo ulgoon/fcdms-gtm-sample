@@ -1,0 +1,31 @@
+html {
+	font-family: "Open Sans", Helvetica;	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Abel", "Open Sans", Helvetica;
+}
+
+h1 {
+	padding-top: 10px;
+}
+
+.uk-navbar-nav > li > a {
+	height:60px;
+	line-height: 60px;
+}
+
+.uk-height-1-2-viewport {
+  height:50vh;
+  min-height: 300px;
+}
+
+.uk-height-1-4-viewport {
+  height:25vh;
+  min-height: 150px;
+}
