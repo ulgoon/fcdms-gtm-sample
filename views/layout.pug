@@ -1,11 +1,15 @@
 doctype html
 html
-    include ./partials/head
+	include ./partials/head
 
-    body
-        include ./partials/header
+	body
+		//google tag manager(noscript)
+		noscript
+			iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-5SK4LH6', height='0', width='0', style='display:none;visibility:hidden')
 
-        section#content
-            block content
+		include ./partials/header
 
-        include ./partials/footer
+		section#content
+			block content
+
+		include ./partials/footer
