@@ -103,8 +103,8 @@ block content
 				form.uk-form
 					fieldset
 						legend Buttons
-						.uk-form-row
-							.data-uk-button-group
-								button.uk-button Radio 1
-								button.uk-button Radio 2
-								button.uk-button Radio 3
+						
+				.uk-button-group(data-uk-button-checkbox='')
+					button.gtm_click_setup.uk-button(aria-checked='false') Set up
+					button.gtm_click_main.uk-button(aria-checked='false', onclick="dataLayer.push({'eventID':'mainClick'});") Main
+					button.gtm_click_clenup.uk-button(aria-checked='false', onclick="dataLayer.push({'dataCleanup':'True'});") Clean up
